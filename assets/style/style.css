@@ -8,9 +8,8 @@
 --Dark-cyan: hsl(184, 100%, 22%);
 --Very-dark-cyan: hsl(179, 100%, 13%);
 
-/* for paragraph */
---Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
---Very-light-gray-background-headings-buttons: hsl(0, 0%, 95%);
+--Transparent-white: hsla(0, 0%, 100%, 0.75);
+--Very-light-gray: hsl(0, 0%, 95%);
 }
 
 html {
@@ -21,7 +20,7 @@ html {
 body {
     height: 100%;
     margin: 0;
-    background-color: var(--very-light-gray);
+    background-color: var(--Very-light-gray);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,14 +45,14 @@ h1 {
     font-size: 40px;
     line-height: 48px;
     letter-spacing: -0.002em;
-    color: var(--very-light-gray);
+    color: var(--Very-light-gray);
     margin-top: 35px;
 }
 
 p {
     font-size: 15px;
     line-height: 165%;
-    color: var(--transparent-white);
+    color: var(--Transparent-white);
     width: 211px;
     margin-top: 25px;
 }
@@ -61,8 +60,8 @@ p {
 button {
     margin-top: 83px;
     border-radius: 100px;
-    border: 2px solid var(--very-light-gray);
-    background-color: var(--very-light-gray);
+    border: 2px solid var(--Very-light-gray);
+    background-color: var(--Very-light-gray);
     padding: 12px 32px;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
@@ -71,15 +70,15 @@ button {
 }
 
 .button_sedans {
-    color: var(--bright-orange);
+    color: var(--Bright-orange);
 }
 
 .button_suvs {
-    color: var(--dark-cyan);
+    color: var(--Dark-cyan);
 }
 
 .button_luxury {
-    color: var(--very-dark-cyan);
+    color: var(--Very-dark-cyan);
 }
 
 .sedans {
@@ -110,20 +109,20 @@ button {
 
 .button_sedans:hover {
     cursor: pointer;
-    background-color: var(--bright-orange);
-    color: var(--very-light-gray);
+    background-color: var(--Bright-orange);
+    color: var(--Very-light-gray);
 }
 
 .button_suvs:hover {
     cursor: pointer;
-    background-color: var(--dark-cyan);
-    color: var(--very-light-gray);
+    background-color: var(--Dark-cyan);
+    color: var(--Very-light-gray);
 }
 
 .button_luxury:hover {
     cursor: pointer;
-    background-color: var(--very-dark-cyan);
-    color: var(--very-light-gray);
+    background-color: var(--Very-dark-cyan);
+    color: var(--Very-light-gray);
 }
 
 @media screen and (max-width: 1440px) {
